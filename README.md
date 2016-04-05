@@ -5,8 +5,8 @@
 
 初始化
 var dorientation = new Dorientation({
-			dori:'.home',//场景
-			sensitive: 15,//倾斜敏感度
-			duration: 20,//动效时间
-			screenWidth: 640,/* 640 || 100%*/
+	dori:'.home',//场景
+	sensitive: 15,//倾斜敏感度
+	duration: 20,//动效时间
+	screenWidth: 640,/* 640 || 100%*/
 });
