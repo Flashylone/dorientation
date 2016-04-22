@@ -1,4 +1,4 @@
-(function Dorientation(window){
+var Dorientation = function(obj){
 	var defaults = {
 		dori:'.home',
 		sensitive: 15,
@@ -11,7 +11,6 @@
 	obj.screenWidth = obj.screenWidth || defaults.screenWidth;
 	var home = document.querySelector(obj.dori);
 	var n = document.querySelectorAll('.dori-single').length;
-	console.log(n);
 	var movingR = false,movingL = false;
 	var dx = 20;
 	var countdx = 0;
@@ -85,5 +84,5 @@
 	// window.addEventListener('devicemotion', handleOrientation,true);
 	window.addEventListener('deviceorientation', handleOrientation);
 
-	return this;
-}(window));
+	// return this;
+};
